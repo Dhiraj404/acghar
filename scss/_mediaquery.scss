@@ -1,0 +1,70 @@
+// X-Small devices (portrait phones, less than 576px)
+/* Smartphone Portrait */
+@media all and (max-width: 479px) {
+    .img-responsive {
+        height: 700px !important;
+    }
+}
+
+// No media query for `xs` since this is the default in Bootstrap
+@media (max-width: 640px) {
+    .img-responsive {
+        height: 700px !important;
+    }
+
+    .slider-container {
+        h2 {
+            width: 412px;
+        }
+
+        h4 {
+            margin-top: 52px;
+        }
+    }
+
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    .img-responsive {
+        height: 700px !important;
+    }
+
+    .slider-container {
+        h2 {
+            width: 412px;
+        }
+
+        h4 {
+            margin-top: 52px;
+        }
+    }
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .dropdown:hover {
+        .dropdown-menu {
+            display: block;
+        }
+    }
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {}
+
+
+@media only screen and (max-width: 600px) {
+    .AdvantageLogo0 {
+
+        margin-left: 3px;
+    }
+}

@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.NewsBtn {
+  border: 1px solid rgb(82, 79, 79);
+  padding: 7px;
+  background: rgb(181, 181, 198);
+  color: white;
+  border-radius: 9px;
+
+  &:hover {
+
+    text-decoration: none;
+    border-radius: 12px;
+
+  }
+}
+
+.newsFont {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: 'Dancing Script', cursive;
+
+  span {
+    color: rgb(175, 61, 61);
+    text-transform: uppercase;
+  }
+}
+
+.welcomeFont {
+  font-size: 19px;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.welcomeLogo {
+  color: rgb(0, 140, 255);
+  margin-left: -20px;
+  height: 90px;
+
+}
+
+.welcomeH {
+  font-size: 20px;
+}
+
+.welcomeText {
+  font-weight: lighter;
+}
+
+
+
+
+.AdvantageLogo0 {
+  margin-left: 40px;
+
+  a {
+    color: rgb(255, 255, 255);
+  }
+
+  i {
+    border: 9px solid red;
+    border-radius: 50%;
+    //   color:red;
+    background-color: red;
+
+  }
+
+  &:hover img {
+    //    background-color:rgb(255, 255, 255);
+    border: 9px solid rgb(255, 255, 255);
+
+
+    border-radius: 50%;
+    //   color:red;
+    background-color: rgb(255, 255, 255);
+
+  }
+}
+
+
+
+
+.asqw {
+  width: 20%;
+}
+
+
+.rara {
+  font-weight: lighter;
+}
+
+.tinted-imager {
+  width: 550px;
+  height: 520px;
+
+  background:
+    /* make both colors the same for a single color
+     change one of the colors for a two-color effect*/
+    linear-gradient(rgb(21, 23, 23),
+      rgba(55, 74, 59, 0.5)),
+    url(../img/ac3.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.WelcomeHover {
+
+
+  &:hover {
+    background-color: rgb(126, 126, 126) !important;
+  }
+}
+
+.va-carrousel-flexbox {
+  img {
+    margin-bottom: 17px;
+  }
+}
+
+.deals-scroll-left {
+
+
+  margin-left: -24px !important;
+}

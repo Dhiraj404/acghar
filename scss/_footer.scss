@@ -1,0 +1,22 @@
+.footerLast {
+    a {
+        color: rgb(163, 163, 163);
+
+        &:hover {
+            color: red;
+            text-decoration: none;
+            list-style: square;
+            font-size: 15px
+        }
+    }
+
+
+}
+
+.payment {
+    margin-top: 50px;
+}
+
+.footerLine {
+    line-height: 2.2;
+}
